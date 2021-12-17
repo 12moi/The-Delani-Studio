@@ -24,3 +24,10 @@
 .click{
     padding-bottom: 2%;
 }
+.container h1{
+   text-align: center;
+}
+.container p{
+    text-align: center;
+    font-size: 15px;
+}
