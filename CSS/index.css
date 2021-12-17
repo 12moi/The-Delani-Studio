@@ -46,3 +46,19 @@
 
 /* styling what we do section */
 
+/* styling portfolio */
+.container4 h1{
+   text-align: center;
+}
+.portfolio {
+    padding-left: 5%;
+}
+.port{
+    align-items: center;
+}
+.card img{
+    
+    height: 200px;
+    width: 200px;
+}
+
