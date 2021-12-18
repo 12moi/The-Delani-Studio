@@ -70,24 +70,43 @@
     justify-content: space-around;
     text-align: center;
     margin: 2% 2% 2% 2%;
+    background: transparent;
+    perspective:300px;
+
 }
+.card-container:onclick .card {
+    transform: rotateY(180deg);
+  }
+.front, .back{
+    -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 .card{
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
     margin: 2%;
 }
 
+
 /* styling portfolio */
+
 .portifolio{
-    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.port{
     margin-left: 3%;
     margin-right: 3%;
 }
 .col-sm{
-    margin: 1%;
+     margin: 1%; 
 }
 .row img{
-    width: 200px;
+    /* width: 200px; */
 }
 .row{
     align-items: center;
-    margin: 2%;
+    /* margin: 2%; */
 }
