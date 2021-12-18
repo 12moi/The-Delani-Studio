@@ -45,8 +45,11 @@
 }
 
 /* styling what we do section */
+.container3 h2{
+    margin-top: 2%;
+    text-align: center;
+}
 
-/* styling portfolio */
 .container4 h1{
    text-align: center;
 }
@@ -61,4 +64,30 @@
     height: 200px;
     width: 200px;
 }
+.card-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+}
+.card{
+    margin: 2%;
+}
 
+/* styling portfolio */
+.portifolio{
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.col-sm{
+    margin: 1%;
+}
+.row img{
+    width: 200px;
+}
+.row{
+    align-items: center;
+    margin: 2%;
+}
