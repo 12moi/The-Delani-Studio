@@ -65,7 +65,7 @@
     width: 200px;
 }
 .card-container{
-    box-sizing: border-box;
+    /* box-sizing: ; */
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -78,10 +78,14 @@
     transform: rotateY(180deg);
   }
 .front, .back{
-    -webkit-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
+} 
+.back{
+    background-color: grey;
+  color: white;
+  transform: rotateY(180deg);
 }
-
 .card{
     text-align: center;
     transition: transform 0.8s;
@@ -103,10 +107,19 @@
 .col-sm{
      margin: 1%; 
 }
-.row img{
-    /* width: 200px; */
-}
+
 .row{
     align-items: center;
     /* margin: 2%; */
 }
+
+/* styling CONTACT US section */
+
+.container5{
+    text-align: center;
+    color: white;
+    background: url("/images/c_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
