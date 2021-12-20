@@ -76,21 +76,11 @@ body{
     text-align: center;
     margin: 2% 2% 2% 2%;
     background: transparent;
-    perspective:300px;
+    /* perspective:300px; */
 
 }
-.card-container:onclick .card {
-    transform: rotateY(180deg);
-  }
-  /* #back{
-     -webkit-backface-visibility: hidden;  
-   backface-visibility: hidden; 
- }   */
-.back{
-    background-color: grey;
-  color: white;
-  transform: rotateY(180deg);
-}
+
+
 .card{
     text-align: center;
     transition: transform 0.8s;
@@ -128,21 +118,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.myform{
+#MESSAGE{
     color: white;
 }
 .myform input{
+    
     width: 24%;
     background: none;
     border: 1px solid white;
     
+}
+::placeholder{
+    color: white;
+    font-size: 21px;
 }
 #NAME{
     margin: 2%;
 }
 .myform textarea{
     width: 50%;
-    background: none;
+    background: transparent;
     border: 1px solid white;
 }
 

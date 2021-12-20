@@ -19,11 +19,21 @@
 //     }
 //   }
 
-$(".front").clickfunction();{
-    $(".front").slideDown("1000").hide("1500");
-    $("1000").show("1500");
-}
-$(".back").clickfunction();{
- $(".back").slideUp();
- $(".front").slideDown();
-}
+$(document).ready(function(){
+    $("#work1").mouseover(function(){
+        $("#overlay").show();
+    }).mouseout(function(){
+        $("#overlay").hide();
+    })
+})
+
+$(document).ready(function() {
+    $("#design1").click(function() {
+      $("#design1").slideDown('').hide('');
+      $("#design2").show('');
+    });
+  });
+  $("#design2").click(function(){
+    $("#design2").slideUp('');
+    $("#design1").slideDown('');
+  });
