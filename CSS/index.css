@@ -132,10 +132,13 @@ body{
     color: white;
 }
 .myform input{
-    width: 25%;
+    width: 24%;
     background: none;
     border: 1px solid white;
     
+}
+#NAME{
+    margin: 2%;
 }
 .myform textarea{
     width: 50%;
@@ -144,6 +147,7 @@ body{
 }
 
 #btn{
+    text-transform: uppercase;
     color: white;
     border-radius: 10px;
     background-color: black;
