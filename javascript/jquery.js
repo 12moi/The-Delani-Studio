@@ -1,6 +1,8 @@
 
 
 
-$("front").click(function(){
-    $("back").toggle();
+$(document).ready(function(){
+    $(".front").on('click', function(){
+      $(".back").toggle(".back");
+    })
   });

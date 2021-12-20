@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
     <title>Delani studio</title>
-    
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+3:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
@@ -72,28 +68,32 @@
        </h2>
       <div class="card-container">
           <div class="card">
-              <figure class="front">
-              <img src="/images/icons/design_icon.png">
-              <strong><h6>DESIGN</h6></strong>
-              </figure>
-              <figure class="back">
+            <div onclick="show()">
+                <div id="front">
+                    <img src="/images/icons/design_icon.png">
+                    <strong><h6>DESIGN</h6></strong>
+                    </div>
+                </div>
+              <div id="back">
               <strong><h6>DESIGN</h6></strong>
               <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
                 </p>
-              </figure>
+            </div>
           </div>
           <div class="card">
-            <div class="front">
-            <img src="/images/icons/dev_icon.png">
-            <strong><h6>DEVELOPMENT</h6></strong>
-            </div>
-            <figure class="back">
+            <!-- <div onclick="show1()"> -->
+                <div class="front">
+                <img src="/images/icons/dev_icon.png">
+                <strong><h6>DEVELOPMENT</h6></strong>
+                </div>
+            <!-- </div> -->
+            <div class="back">
             <strong><h6>DEVELOPMENT</h6></strong>
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
             </p>
-            </figure>
+        </div>
         </div>
         <div class="card">
             <div class="front">
@@ -156,13 +156,28 @@
 <div class="container-fluid">
     <div class="container5">
         <h1>CONTACT US</h1>
+        <form action="" method="">
+            <div class="container-fluid">
+                <div class="myform">
+                    <div id="NAME-EMAIL">
+                      <input type="text" id="NAME" placeholder="Name..." aria-label="Name" value="" required>
+                      <input type="text" id="EMAIL" placeholder="Email..." aria-label="Email" value="" required>
+                    </div>
+                    <br>
+                    <div id="message">
+                       <textarea cols="40" id="message" rows="10" placeholder="Your message here..."></textarea>
+                      </div>
+                  </div>
+                  <button id="btn">Send message</button>
+            </div>
+        </form>
     </div>
 </div>
 <!-- end of CONTACT SECTION -->
    
-   <!-- jquery tag -->
+   <!-- jquery script  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- custom script tag -->
+    <!-- custom script  -->
     <script src="javascript/script.js"></script>
 </body>
 </html>
