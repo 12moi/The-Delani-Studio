@@ -12,6 +12,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container6 {
+    margin-left: 35%;
+}
 .logo{
     
     padding-top: 10%;
@@ -79,7 +83,9 @@ body{
     /* perspective:300px; */
 
 }
-
+.overlay{
+   display: none;
+}
 
 .card{
     text-align: center;
@@ -122,11 +128,12 @@ body{
     color: white;
 }
 .myform input{
-    
+    border: none;
+    padding: 15px;
     width: 24%;
     background: none;
     border: 1px solid white;
-    
+  
 }
 ::placeholder{
     color: white;
@@ -136,7 +143,9 @@ body{
     margin: 2%;
 }
 .myform textarea{
+    border: none;
     width: 50%;
+    padding: 15px;
     background: transparent;
     border: 1px solid white;
 }

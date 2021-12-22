@@ -1,39 +1,47 @@
 
 
 
-// function show() {
-//     var x = document.getElementById("front");
-//     if (x.style.display === "none") {
-//       x.style.display = "back";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function show1() {
-//     var x = document.getElementById("front");
-//     if (x.style.display === "none") {
-//       x.style.display = "back";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
 
 $(document).ready(function(){
     $("#work1").mouseover(function(){
-        $("#overlay").show();
+      $(".overlay").show();
     }).mouseout(function(){
-        $("#overlay").hide();
-    })
-})
-
-$(document).ready(function() {
-    $("#design1").click(function() {
-      $("#design1").slideDown('').hide('');
-      $("#design2").show('');
+      $(".overlay").hide();
     });
   });
-  $("#design2").click(function(){
-    $("#design2").slideUp('');
-    $("#design1").slideDown('');
+
+
+
+
+$(document).ready(function() {
+    $("#development1").click(function() {
+    //  $("#design2").css("bold","center");
+      $("#development1").toggle('');
+      $("#development2").show('');
+      
+    });
   });
+  $("#development2").click(function(){
+    $("#development2").hide('');
+    $("#development1").toggle('');
+  });
+  
+
+
+$(document).ready(function(){
+    $(".myform").submit(function(e){
+        e.preventDefault(); 
+    })
+        var name=$("input#mce-NAME").val();
+        var email=$("input#mce-EMAIL").val();
+        var message=$("input#comment").val();
+    if($("input#mce-NAME").val() && $("input#mce-EMAIL").val()){
+        alert((name + ", We have received your message. Thank you for contacting us!"));
+    }
+    else{
+        alert("Please enter your name and email!");
+    }
+})
+    
+
+   
