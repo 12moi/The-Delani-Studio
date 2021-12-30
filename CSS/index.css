@@ -12,12 +12,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 .logo{
-    
     padding-top: 10%;
 }
+
 .people{
     
     font-size: 15px;
@@ -80,21 +78,145 @@ body{
     height: 200px;
     width: 200px;
 }
-#overlay{
-    display: none;
+#work {
 }
+#overlay {
+    width: 363px;
+    height: 298px;
+    color: white;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+    font-weight: bolder;
+}
+#overlay #p1{
+    margin-top: 30%;
+}
+#overlay2{
+    width: 363px;
+    height: 298px;
+    color: yellow;
+    font-style: italic;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+    font-weight: bolder;
+}
+#overlay2 #p2{
+    margin-top: 30%;
+}
+#overlay3 {
+    width: 363px;
+    height: 298px;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+}
+#overlay3 #p3{
+    margin-top: 30%;
+}
+#overlay4 {
+    width: 363px;
+    height: 298px;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+}
+#overlay4 #p4{
+    margin-top: 30%;
+}
+#overlay5 {
+    width: 363px;
+    height: 298px;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+    font-weight: bolder;
+}
+#overlay5 #p5{
+    margin-top: 30%;
+}
+#overlay6 {
+    width: 363px;
+    height: 298px;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+}
+#overlay6 #p6{
+    margin-top: 30%;
+}
+#overlay7 {
+    width: 363px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+}
+#overlay7 #p7{
+    margin-top: 30%;
+}
+#overlay8 {
+    width: 363px;
+    height: 298px;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: transparent;
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+     top: 0.2em; 
+    display:none;
+}
+#overlay8 #p8{
+    margin-top: 30%;
+}  
+    
 .container-fluid-5{
-    /* box-sizing: ; */
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 2% 2% 2% 2%;
     background: transparent;
-    /* perspective:300px; */
-
-}
-.overlay{
-   display: none;
 }
 
 .card{
@@ -103,7 +225,6 @@ body{
     transform-style: preserve-3d;
     margin: 2%;
 }
-
 
 /* styling portfolio */
 
@@ -121,7 +242,6 @@ body{
 
 .row{
     align-items: center;
-    /* margin: 2%; */
 }
 
 /* styling CONTACT US section */
