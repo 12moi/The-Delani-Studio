@@ -91,8 +91,8 @@ $(document).ready(function(event){
         var name=$("input#mce-NAME").val();
         var email=$("input#mce-EMAIL").val();
         var message=$("input#comment").val();
-    if($("input#mce-NAME").val() && $("input#mce-EMAIL").val()){
-        alert((name + ", We have received your message. Thank you for contacting us!"));
+    if($("input#mce-NAME").val()=true && $("input#mce-EMAIL").val() ){
+        alert(name + ", We have received your message. Thank you for contacting us!");
     }
     else{
         alert("Please enter your name and email!");

@@ -78,8 +78,6 @@ body{
     height: 200px;
     width: 200px;
 }
-#work {
-}
 #overlay {
     width: 363px;
     height: 298px;
@@ -280,16 +278,19 @@ body{
     border: 1px solid white;
 }
 
-#btn{
+.button{
     text-transform: uppercase;
     color: white;
     border-radius: 10px;
     background-color: black;
     text-align: center;
     margin-bottom: 1%;
+    border-radius: 10px;
 }
-
 .container6 {
     margin-left: 35%;
 }
 
+footer{
+    font-weight: bolder;
+}
