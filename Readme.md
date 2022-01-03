@@ -10,7 +10,7 @@ This is a website that allow the user to see the previous projects we have worke
 
 
 ### Live Page
-https://github.com/12moi/The-Delani-Studio
+https://github.com/12moi/The-Delani-Studio/
 
 ## Setup / Installation 
 Open Terminal {ctrl+alt+T}<br>
