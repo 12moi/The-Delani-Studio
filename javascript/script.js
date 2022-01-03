@@ -4,7 +4,6 @@
 
 $(document).ready(function(){
   $("#img_1").click(function(){
-     $("#content1").css("bold","center");
     $("#img_1").toggle();
       $("#one").toggle();
        $("#one").click(function(){
@@ -15,7 +14,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#img_2").click(function(){
-   $("#content1").css("bold","center");
+  //  $("#content2").css("bolder","center");
     $("#img_2").toggle();
       $("#two").toggle();
       $("#two").click(function(){
@@ -26,7 +25,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#img_3").click(function(){
-     $("#content2").css("bold","center");
+    //  $("#content3").css("bolder","center");
     $("#img_3").toggle();
       $("#three").toggle();
        $("#three").click(function(){
@@ -98,6 +97,7 @@ $(document).ready(function(event){
         alert("Please enter your name and email!");
     }
 })
+let Form = document.querySelector(".myform").addEventListener("click", $());
     
 
    

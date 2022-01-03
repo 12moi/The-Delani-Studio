@@ -54,7 +54,20 @@ body{
     margin-top: 2%;
     text-align: center;
 }
-
+#content1{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+#content2{
+    
+    text-align: center;
+    font-weight: bolder;
+}
+#content3{
+    text-align: center;
+    font-weight: bolder;
+}
 #one{
     display: none;
 }
@@ -79,29 +92,28 @@ body{
     width: 200px;
 }
 #overlay {
-    width: 363px;
-    height: 298px;
+    display:none;
+    width: 367px;
+    height: 500px;
     color: white;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
-    display:none;
+    top: 0.2em; 
     font-weight: bolder;
 }
 #overlay #p1{
     margin-top: 30%;
 }
 #overlay2{
-    width: 363px;
-    height: 298px;
+    width: 367px;
+    height: 300px;
     color: yellow;
     font-style: italic;
     font-size: 35px;
-    background-color: transparent;
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
     opacity: 1;
     position: absolute;
      top: 0.2em; 
@@ -112,12 +124,12 @@ body{
     margin-top: 30%;
 }
 #overlay3 {
-    width: 363px;
-    height: 298px;
+    width: 367px;
+    height: 300px;
     color: black;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
@@ -128,12 +140,12 @@ body{
     margin-top: 30%;
 }
 #overlay4 {
-    width: 363px;
+    width: 367px;
     height: 298px;
     color: white;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color:rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
@@ -144,12 +156,12 @@ body{
     margin-top: 30%;
 }
 #overlay5 {
-    width: 363px;
+    width: 367px;
     height: 298px;
     color: white;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
@@ -161,12 +173,12 @@ body{
     margin-top: 30%;
 }
 #overlay6 {
-    width: 363px;
+    width: 367px;
     height: 298px;
     color: black;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
@@ -177,12 +189,12 @@ body{
     margin-top: 30%;
 }
 #overlay7 {
-    width: 363px;
+    width: 367px;
     height: 300px;
     color: white;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
@@ -193,12 +205,12 @@ body{
     margin-top: 30%;
 }
 #overlay8 {
-    width: 363px;
+    width: 367px;
     height: 298px;
     color: white;
     font-weight: bolder;
     font-size: 35px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
