@@ -14,7 +14,6 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#img_2").click(function(){
-  //  $("#content2").css("bolder","center");
     $("#img_2").toggle();
       $("#two").toggle();
       $("#two").click(function(){
@@ -25,7 +24,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#img_3").click(function(){
-    //  $("#content3").css("bolder","center");
+    
     $("#img_3").toggle();
       $("#three").toggle();
        $("#three").click(function(){
