@@ -84,7 +84,7 @@ $('#work8').mouseover(function () {
 $(document).ready(function(event){
   event.preventDefault();
     $(".myform").submit(function(e){
-        e.preventDefault(); 
+        e.preventDefault();
     })
         var name=$("input#mce-NAME").val();
         var email=$("input#mce-EMAIL").val();

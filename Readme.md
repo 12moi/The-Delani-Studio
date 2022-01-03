@@ -42,13 +42,13 @@ There are no known bugs so for hence the progam works as expected, although some
 
 ## Support and Contact
 Any contribution are welcome through project cloning.<br>
-For any questions on the program Email (moi.shadrack@student.moringaschool.com)
+For any questions on the program Email moi.shadrack@student.moringaschool.com
 
 
 ### License
 MIT License
 
-Copyright [&copy] 2021  Moi Shadrack
+Copyright  2021  Moi Shadrack
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
