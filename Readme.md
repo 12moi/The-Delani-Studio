@@ -9,14 +9,14 @@ Moi Shadrack
 This is a website that allow the user to see the previous projects we have worked on and he/she can contact us at the same time. Developed by Moi Shadrack on 30-12-2021.
 
 ### screenshot
- ![Screenshot](Delani.png)  
+ ![Delani.png](Delani.png)  
 
 ### Live Page
-[https://github.com/12moi/The-Delani-Studio]
+![https://github.com/12moi/The-Delani-Studio]
 
 ## Setup / Installation 
 Open Terminal {ctrl+alt+T}<br>
-git clone [https://github.com/12moi/The-Delani-Studio] <br>
+git clone ![https://github.com/12moi/The-Delani-Studio] <br>
 cd Delani Studio <br>
 code . or atom . depending on the text editor of your choise.
 
@@ -29,11 +29,11 @@ There are no known bugs so for hence the progam works as expected, although some
 
 ## Technologies used
 
-1) HTML5<br>
-2) CSS<br>
-3) BOOTSTRAP<br>
-4) Jquery<br>
-5) markdown
+ HTML5<br>
+ CSS<br>
+ BOOTSTRAP<br>
+ Jquery<br>
+ markdown
 
 ## BEHAVIOURAL DRIVEN-DEVELOPMENT (BDD)
    Behaviour       |           Input                   |           Output              |
@@ -44,13 +44,13 @@ There are no known bugs so for hence the progam works as expected, although some
 
 ## Support and Contact
 Any contribution are welcome through project cloning.<br>
-For any questions on the program Email [moi.shadrack@student.moringaschool.com]
+For any questions on the program Email ![moi.shadrack@student.moringaschool.com]
 
 
 ### License
 MIT License
 
-Copyright (c) [2021] [Moi Shadrack]
+Copyright (c) ![2021] ![Moi Shadrack]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
