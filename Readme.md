@@ -8,11 +8,9 @@ Moi Shadrack
 ## Description
 This is a website that allow the user to see the previous projects we have worked on and he/she can contact us at the same time. Developed by Moi Shadrack on 30-12-2021.
 
-### screenshot
- !(Delani.png)  
 
 ### Live Page
-![https://github.com/12moi/The-Delani-Studio]
+https://github.com/12moi/The-Delani-Studio
 
 ## Setup / Installation 
 Open Terminal {ctrl+alt+T}<br>
@@ -50,7 +48,7 @@ For any questions on the program Email (moi.shadrack@student.moringaschool.com)
 ### License
 MIT License
 
-Copyright (c) !(2021) !(Moi Shadrack)
+Copyright [&copy] 2021  Moi Shadrack
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
