@@ -8,7 +8,7 @@ body{
 }
 .container1{
     text-align: center;
-    background: url("/images/h_img.jpg");
+    background: url("images/h_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ body{
     padding-top: 5%;
     padding-bottom: 5%;
     color: white;
-    background: url("/images/s_image.jpg");
+    background: url("images/s_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,7 +268,7 @@ body{
 .container5{
     text-align: center;
     color: white;
-    background: url("/images/c_image.jpg");
+    background: url("images/c_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
