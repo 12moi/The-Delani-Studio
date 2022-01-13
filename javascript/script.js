@@ -82,14 +82,14 @@ $('#work8').mouseover(function () {
 // Business logic
 
 $(document).ready(function(event){
-  event.preventDefault();
+ 
     $(".myform").submit(function(e){
         e.preventDefault();
     })
         var name=$("input#mce-NAME").val();
         var email=$("input#mce-EMAIL").val();
         var message=$("input#comment").val();
-    if($("input#mce-NAME").val()=true && $("input#mce-EMAIL").val() ){
+    if($("input#mce-NAME").val() && $("input#mce-EMAIL").val()){
         alert(name + ", We have received your message. Thank you for contacting us!");
     }
     else{

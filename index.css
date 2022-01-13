@@ -94,16 +94,15 @@ body{
 }
 #overlay {
     display:none;
-   border-style: solid;
     width: 367px;
-    height: 500px;
-    color: white;
+    height: 300px;
+    color: black;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-    top: 0.2em; 
+    top: 0.1em; 
     font-weight: bolder;
 }
 #overlay #p1{
@@ -111,15 +110,13 @@ body{
 }
 #overlay2{
     width: 367px;
-    border-style: solid;
     height: 300px;
-    color: yellow;
-    font-style: italic;
+    color: black;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
+     top: 0.1em; 
     display:none;
     font-weight: bolder;
 }
@@ -136,25 +133,24 @@ body{
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
-     border-style: solid;
+     top: 0.1em; 
     display:none;
 }
 #overlay3 #p3{
     margin-top: 30%;
 }
 #overlay4 {
-    border-style: solid;
+    
     width: 367px;
     height: 298px;
-    color: white;
+    color: black;
     font-weight: bolder;
     font-size: 35px;
     background-color:rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
+     top: 0.1em; 
     display:none;
 }
 #overlay4 #p4{
@@ -163,8 +159,8 @@ body{
 #overlay5 {
     width: 367px;
     height: 298px;
-    color: white;
-    border-style: solid;
+    color: black;
+   
     font-weight: bolder;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
@@ -182,48 +178,48 @@ body{
     width: 367px;
     height: 298px;
     color: black;
-    border-style: solid;
+    
     font-weight: bolder;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
+     top: 0.1em; 
     display:none;
 }
 #overlay6 #p6{
     margin-top: 30%;
 }
 #overlay7 {
-    border-style: solid;
+   
     width: 367px;
     height: 300px;
-    color: white;
+    color: black;
     font-weight: bolder;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
+     top: 0.1em; 
     display:none;
 }
 #overlay7 #p7{
     margin-top: 30%;
 }
 #overlay8 {
-    border-style: solid;
+   
     width: 367px;
     height: 298px;
-    color: white;
+    color: black;
     font-weight: bolder;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.25);
     z-index: 1;
     opacity: 1;
     position: absolute;
-     top: 0.2em; 
+     top: 0.1em; 
     display:none;
 }
 #overlay8 #p8{
@@ -315,3 +311,48 @@ body{
 footer{
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 425px){
+    .logo {
+        height: auto;
+        width: auto;
+    }
+    htmal{
+        font-size: 60%;
+    }
+    .port{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .myform textarea{
+        border: none;
+        width: 50%;
+        padding: 10px;
+       
+    }
+    .container5{
+        display: inline;
+    }
+    .container6 img {
+        display: inline;
+        margin-left: auto;
+    }
+    .portifolio{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .portfolio {
+        padding-left: 1%;
+    }
+    #overlay #overlay2 #overlay3 #overlay4 #overlay5 #overlay6 #overlay7  #overlay8{
+        margin-top: auto;
+        height: auto;
+        width: auto;
+        font-size: auto;
+    }
+    .container2{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+   
+ } 
